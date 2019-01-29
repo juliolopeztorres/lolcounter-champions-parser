@@ -107,7 +107,7 @@ class ChampionsParserCommand extends Command
         $this->writeln("Serializing champions data...");
 
         return $this->serializer->get()->serialize(
-          ['data' => $champions, 'type' => 'champion', 'version' => '9.1.1'],
+          ['data' => $champions, 'type' => 'champion', 'version' => '9.2.1'],
           'json',
           ['json_encode_options' => JSON_UNESCAPED_UNICODE]
         );

@@ -17,3 +17,5 @@ composer.lock
 symfony.lock
 
 /public/output/
+/public/output_*/
+log.txt
