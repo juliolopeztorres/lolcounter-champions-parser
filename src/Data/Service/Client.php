@@ -9,7 +9,7 @@ use App\Data\Service\LogMiddleware;
 
 class Client
 {
-    const CDN_VERSION = '9.1.1';
+    const CDN_VERSION = '9.2.1';
     private $guzzle;
 
     public function __construct(LogMiddleware $logMiddleware)
